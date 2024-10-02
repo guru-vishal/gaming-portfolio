@@ -1,0 +1,302 @@
+*{
+    background-color: rgb(186, 254, 186);
+}
+
+.name{
+    color: rgb(23, 231, 23);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+h1{
+    font-size: 72px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.headphone-console-div{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3%;
+}
+
+.keyboard-mouse-div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 5%;
+}
+
+.computer{
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+}
+
+.computer > img{
+    width: 500px;
+}
+
+.intro{
+    text-align: center;
+}
+
+.pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#headphone{
+    width: 100px;
+    height: auto;
+    transform: rotate(20deg);
+    padding-left: 3%;
+}
+
+#console{
+    width: 100px;
+    height: auto;
+    transform: rotate(-35deg);
+}
+
+#keyboard{
+    width: 200px;
+    height: auto;
+    transform: rotate(20deg);
+}
+
+#mouse{
+    width: 50px;
+    height: auto;
+    transform: rotate(-35deg);
+    padding-right: 3%;
+}
+
+.myself{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+}
+
+#my-img{
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+#my-img:hover{
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
+h2{
+    font-size: 56px;
+    color: rgb(23, 231, 23);
+    font-weight: 500;
+    padding-top : 15px;
+}
+
+.domine {
+  font-family: "Domine", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.myself > p{  
+    text-align: center;
+    width: 300px;
+}
+
+h3{
+    font-size: 24px;
+}
+
+p{
+    line-height: 2;
+    color: rgb(12, 148, 27);
+    font-size: 18px;
+}
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.programming > img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10%;
+}
+
+.programming{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(23, 231, 23);
+}
+
+.programming > div{
+    padding-left: 30px;
+}
+
+.skills > div > div > p{
+    width: 500px;
+}
+
+.unity{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(23, 231, 23);
+    padding-top: 50px;
+}
+
+.unity > img{
+    width: 200px;
+}
+
+.unity > div{
+    padding-left: 30px;
+}
+
+.unity > div > p{
+    width: 500px;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.contact > p{
+    text-align: center;
+    width: 500px;
+}
+
+button{
+    width: 200px;
+    height: 50px;
+    border: 0;
+    background-color: rgb(23, 231, 23);
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    border-radius: 20px;
+    transition: transform 0.2s ease;
+}
+
+button:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.footer{
+    margin: 0;
+    padding: 0;
+    margin-top: 50px;
+    background-color: green;
+}
+
+footer{
+    background-color: green;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+footer > div{
+    display: flex;
+    justify-content: space-around;
+    background-color: green;
+}
+
+footer > div > p{
+    background-color: green;
+}
+
+footer > div > p > a{
+    text-decoration: none;
+    color: rgb(186, 254, 186);
+    background-color: green;
+}
+
+footer > p{
+    color: white;
+    text-align: center;
+    background-color: green;
+    font-size: 16px;
+}
+
+div > p > a:hover{
+    text-decoration: underline;
+}
+
+body, html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 768px) {
+    .skills > div > img{
+        width: 100px;
+        height: 100px;
+    }
+
+    h1{
+        font-size: 64px;
+    }
+
+    h2{
+        font-size: 48px;
+    }
+
+    h3{
+        font-size: 18px;
+    }
+
+    p{
+        font-size: 14px;
+    }
+
+    .skills > div > div > p{
+        width: 300px;
+    }
+
+    .contact > p{
+        text-align: center;
+        width: 300px;
+    }
+}
+
+@media (max-width: 600px) {
+    .skills > div > img{
+        width: 75px;
+        height: 75px;
+    }
+
+    h1{
+        font-size: 56px;
+    }
+
+    h2{
+        font-size: 36px;
+    }
+
+    h3{
+        font-size: 14px;
+    }
+
+    p{
+        font-size: 10px;
+    }
+}

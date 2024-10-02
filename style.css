@@ -305,6 +305,10 @@ body, html{
         height: 75px;
     }
 
+    .skills > .unity > img{
+        height: 50px;
+    }
+
     h1{
         font-size: 56px;
     }

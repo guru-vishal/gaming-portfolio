@@ -300,13 +300,10 @@ body, html{
         width: 100px;
     }
 
-    .skills{
-        padding: 30px;
-    }
-
     .skills > div > img{
         width: 75px;
         height: 75px;
+        padding-left: 10px;
     }
 
     h1{

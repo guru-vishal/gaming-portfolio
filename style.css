@@ -128,6 +128,10 @@ p{
     padding-top: 50px;
 }
 
+.skills > div{
+    padding: 10px;
+}
+
 .programming > img{
     width: 200px;
     height: 200px;
@@ -330,7 +334,7 @@ body, html{
     }
 
     .skills > div > div > p{
-        width: 250px;
+        width: 200px;
     }
 
     button{
